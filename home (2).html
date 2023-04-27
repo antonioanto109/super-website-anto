@@ -1,0 +1,134 @@
+<html>
+
+<head>
+  <title>antonio site bruh </title>
+  <link rel="icon" href="favicon.png" />
+</head>
+
+<body>
+
+
+
+
+<p><h1 style="color:blueviolet;"> inregistrarea pe cont </h1></p>
+<input type="text" placeholder="Email" > 
+<br>
+<input type="password" placeholder="password">
+<br>
+<br>
+<a href="https://linktr.ee/antonio1095">
+  <button> Button
+    <span></span>
+  </button>
+</a>
+
+
+
+
+<style> 
+button {
+  border: none;
+  display: block;
+  position: relative;
+  padding: 0.7em 2.4em;
+  font-size: 18px;
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+  overflow: hidden;
+  color: royalblue;
+  z-index: 1;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+button span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: -1;
+  border: 4px solid royalblue;
+}
+
+button span::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 8%;
+  height: 500%;
+  background: var(--lightgray);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-60deg);
+  transition: all 0.3s;
+}
+
+button:hover span::before {
+  transform: translate(-50%, -50%) rotate(-90deg);
+  width: 100%;
+  background: royalblue;
+}
+
+button:hover {
+  color: white;
+}
+
+button:active span::before {
+  background: #2751cd;
+}
+
+
+
+
+
+
+
+
+
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: 30;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+
+
+
+
+body {
+  background-color: black;
+  color: aqua;
+}
+ 
+</style>
+
+<body>
+
+<h1>CSS Animation</h1>
+
+<div></div>
+
+
+
+</body>
+
+
+<audio controls autoplay src="melodie.wav"></audio>
+
+</html>
